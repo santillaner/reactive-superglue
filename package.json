@@ -1,0 +1,10 @@
+{
+  "name": "superglue",
+  "version": "0.0.1",
+  "dependencies": {
+    "flat": "^2.0.0",
+    "highland": "^2.7.2",
+    "mongodb": "^2.1.11",
+    "require-all": "^2.0.0"
+  }
+}
