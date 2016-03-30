@@ -1,6 +1,6 @@
 {
   "name": "reactive-superglue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "flat": "^2.0.0",
     "highland": "^2.7.2",
