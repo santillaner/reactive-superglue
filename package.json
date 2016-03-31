@@ -1,6 +1,27 @@
 {
   "name": "reactive-superglue",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "author": "Manuel Santillan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santillaner/reactive-superglue"
+  },
+  "bugs": {
+    "url": "https://github.com/santillaner/reactive-superglue/issues"
+  },
+  "keywords": [
+    "node.js",
+    "reactive programming",
+    "streams",
+    "streaming",
+    "mongodb",
+    "csv",
+    "middleware",
+    "highland.js",
+    "rx.js",
+    "superglue",
+    "integration"
+  ],
   "dependencies": {
     "flat": "^2.0.0",
     "highland": "^2.7.2",
