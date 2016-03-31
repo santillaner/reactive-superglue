@@ -66,10 +66,15 @@ var db=_.db("mongodb://localhost/test")
 //Fetch the collection:
 var collection=db.collection("reactive-superglue-collection")
 
-//Stream a query to stdout. Propagates arguments to mongo (query, projection and options) 
-collection.find().map(JSON.stringify).pipe(process.stdout)
+//Stream a query to stdout. 
+//Propagates arguments to mongo (query, projection and options) 
+collection.find()
+  .map(JSON.stringify)
+  .pipe(process.stdout)
 
-collection.find({field1: "somevalue"}, {_id: 0, field1: 1}).map(JSON.stringify).pipe(process.stdout)
+collection.find({field1: "somevalue"}, {_id: 0, field1: 1})
+  .map(JSON.stringify)
+  .pipe(process.stdout)
 
 //Aggregation also supported. 
 db.collection("some_collection")
