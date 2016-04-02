@@ -1,6 +1,6 @@
 {
   "name": "reactive-superglue",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Manuel Santillan",
   "repository": {
     "type": "git",
@@ -9,6 +9,7 @@
   "bugs": {
     "url": "https://github.com/santillaner/reactive-superglue/issues"
   },
+  "description": "Stream-based middleware for I/O integration of sources and sinks",
   "keywords": [
     "node.js",
     "reactive programming",
@@ -20,8 +21,10 @@
     "highland.js",
     "rx.js",
     "superglue",
-    "integration"
+    "integration",
+    "I/O"
   ],
+  "license": "Apache-2.0",
   "dependencies": {
     "flat": "^2.0.0",
     "highland": "^2.7.2",
