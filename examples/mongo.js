@@ -12,8 +12,8 @@ _(samples)//input
 
 function readMongo(){
         db.collection("users")
-            .find({})
-            .json().stdout()
+            .find({}) //use same args as in the mongo api, without callback. You can use aggregate instead
+            .json().stdout() //stringify and pipe to stdout
             .done(function(){
                 db.close()
             })
