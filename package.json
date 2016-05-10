@@ -1,6 +1,6 @@
 {
   "name": "reactive-superglue",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Manuel Santillan",
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
+    "elasticsearch": "^11.0.1",
+    "express": "^4.13.4",
     "flat": "^2.0.0",
     "highland": "^2.7.2",
     "moment": "^2.12.0",
