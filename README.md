@@ -3,7 +3,9 @@ FRP (functional reactive programming) middleware for integrating diverse data so
 
 We leverage [highland.js](http://highlandjs.org) to provide a light and robust data processing framework, but we are team players, it should work seamlessly with whatever frameworks you are currently using (please report issues!).
 
-**reactive-superglue** is designed to simplify dealing with real-world data that  is on the move. You can call it streams, monoids, observables, but at the end of the day, it usually boils down to read from here, do stuff, write there. 
+**reactive-superglue** is designed to simplify dealing with real-world data that  is on the move. You can call it streams, monoids, observables, but at the end of the day, it usually boils down to read from here, do stuff, write there.
+
+This lib is currently being used in production and battle-tested by [TramitApp](https://www.tramitapp.com)
 
 ##hello superglue
 
@@ -159,12 +161,3 @@ for the most common ones).
 This is just  [highland.js](http://highlandjs.org/) syntax, so be sure to take a look at its docs. 
   
 
-###file
-@@
-###json and jsonfiles
-@@
-###csv
-@@
-
-##The underlying concepts
-@@
